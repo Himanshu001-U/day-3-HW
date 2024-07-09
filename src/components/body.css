@@ -1,0 +1,73 @@
+.body {
+    margin: 0 50px;
+}
+
+.body img {
+    width: 100%;
+    height: 700px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: brown;
+    color: white;
+    height: 320px;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.btn {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.btn button {
+    width: 300px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: white;
+    color: brown;
+}
+
+.text {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.para1 {
+    color: rgb(237, 46, 183);
+    font-size: 18px;
+}
+
+.para2, .para3{
+    color: rgb(14, 12, 12);
+    font-size: 18px;
+}
+
+hr {
+    border: 2px solid black;
+}
